@@ -9,8 +9,8 @@ class Stream extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'Stream',
-            'description' => 'Комменты',
+            'name'        => Lang::get('alexlit.hypercomments::lang.stream.name'),
+            'description' => Lang::get('alexlit.hypercomments::lang.stream.description'),
         ];
     }
 
@@ -18,13 +18,13 @@ class Stream extends ComponentBase
     {
         return [
             'widgetId' => [
-                'title'             => 'ID аккаунта HyperComments',
+                'title'             => Lang::get('alexlit.hypercomments::lang.stream.widgetId.title'),
                 'type'              => 'string',
                 'default'           => '',
-                'description'       => 'Числовой идентификатор аккаунта HyperComments',
+                'description'       => Lang::get('alexlit.hypercomments::lang.stream.widgetId.description'),
                 'placeholder'       => 'ID',
                 'validationPattern' => '^[0-9]+$',
-                'validationMessage' => 'ID должен быть числом!'
+                'validationMessage' => Lang::get('alexlit.hypercomments::lang.stream.widgetId.validationMessage')
             ]
         ];
     }

@@ -1,0 +1,28 @@
+ {% set widgetId = __SELF__.property('widgetId') %}
+ {% set type     = __SELF__.property('type') %}
+ {% set limit    = __SELF__.property('limit') %}
+ {% set combine  = __SELF__.property('combine') %}
+
+<div id="hypercomments_mix"></div>
+
+<script type="text/javascript">
+    _hcwp = window._hcwp || [];
+    _hcwp.push({
+        widget: "Mixstream",
+        widget_id: {{ widgetId }},
+        filter: "{% if combine == 1 %}all{% else %}{{ type }}{% endif %}",
+        {% if combine == 1 %}
+        default_filter: "{{ type }}",
+        {% endif %}
+        limit: {{ limit }}
+        });
+    (function () {
+        if ("HC_LOAD_INIT" in window) return;
+        HC_LOAD_INIT = true;
+        var lang = (navigator.language || navigator.systemLanguage || navigator.userLanguage || "en").substr(0, 2).toLowerCase();
+        var hcc = document.createElement("script"); hcc.type = "text/javascript"; hcc.async = true;
+        hcc.src = ("https:" == document.location.protocol ? "https" : "http") + "://w.hypercomments.com/widget/hc/{{ widgetId }}/" + lang + "/widget.js";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hcc, s.nextSibling);
+    })();
+</script>

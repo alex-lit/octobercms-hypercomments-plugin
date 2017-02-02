@@ -9,8 +9,8 @@ class Plugin extends PluginBase
     public function pluginDetails()
     {
         return [
-            'name'        => 'Hyper Comments',
-            'description' => 'Интерактивная система комментариев',
+            'name'        => Lang::get('alexlit.hypercomments::lang.plugin.name'),
+            'description' => Lang::get('alexlit.hypercomments::lang.plugin.description'),
             'author'      => 'Alexey Litovchenko',
             'icon'        => 'icon-comments-o',
             'homepage'    => 'https://web2easy.ru'
@@ -20,7 +20,8 @@ class Plugin extends PluginBase
     public function registerComponents()
     {
         return [
-           '\AlexLit\HyperComments\Components\Stream' => 'hcStream',
+           '\AlexLit\HyperComments\Components\Stream'    => 'hcStream',
+           '\AlexLit\HyperComments\Components\Mixstream' => 'hcMixstream'
         ];
     }
 }
