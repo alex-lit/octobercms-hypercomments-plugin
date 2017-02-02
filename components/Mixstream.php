@@ -54,9 +54,6 @@ class Mixstream extends ComponentBase
         ];
     }
 
-    public function onRun()
-    {}
-
 }
 
 ?>

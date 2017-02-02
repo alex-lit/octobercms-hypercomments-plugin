@@ -29,9 +29,6 @@ class Stream extends ComponentBase
         ];
     }
 
-    public function onRun()
-    {}
-
 }
 
 ?>
