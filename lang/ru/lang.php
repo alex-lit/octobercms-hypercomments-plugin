@@ -3,11 +3,11 @@
 return [
     'plugin'                    => [
             'name'              => 'Hyper Comments',
-            'description'       => 'Tailored comment system for your site'
+            'description'       => 'Интерактивная система комментариев'
     ],
     'stream'                    => [
-        'name'                  => 'Comments widget',
-        'description'           => 'Display HyperComments widget',
+        'name'                  => 'Виджет комментариев',
+        'description'           => 'Интерактивная система комментариев. Все настройки производятся на сайте HyperComments',
         'widgetId'              => [
             'title'             => 'ID аккаунта HyperComments',
             'description'       => 'Числовой идентификатор аккаунта HyperComments',
@@ -15,7 +15,7 @@ return [
         ]
     ],
     'mixstream'                 => [
-        'name'                  => 'MINI-WIDGETS',
+        'name'                  => 'Мини-виджеты',
         'description'           => 'Последние комментарии и самые комментируемые страницы',
         'widgetId'              => [
             'title'             => 'ID аккаунта HyperComments',
@@ -25,19 +25,19 @@ return [
         'type'                  => [
             'title'             => 'Тип виджета',
             'options'           => [
-                'last'          => 'RECENT COMMENTS',
-                'popular'       => 'POPULAR ARTICLES'
+                'last'          => 'Последние комментарии',
+                'popular'       => 'Популярные страницы'
             ],
             'description'       => 'Отобразить последние комментарии или самые популярные страницы'
         ],
         'limit'                 => [
-            'title'             => 'Count',
+            'title'             => 'Количество',
             'description'       => 'Количество элементов отображаемых в виджете',
-            'placeholder'       => 'Count',
+            'placeholder'       => 'Кол-во',
             'validationMessage' => 'Количество должно быть числом!'
         ],
         'combine'               => [
-            'title'             => 'COMBINED',
+            'title'             => 'Комбинированный виджет',
             'description'       => 'Отображение как комментариев, так и популярных страниц во вкладках виджета'
         ]
     ]

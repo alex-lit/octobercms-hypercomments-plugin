@@ -1,6 +1,6 @@
 # OctoberCMS VK Widgets plugin
 
-The compact and recognizable — add VK widgets to your site to increase visitors activity.
+Tailored comment system for your site
 
 ## Available components:
 
