@@ -29,7 +29,7 @@ Recent comments and most commented pages
 4. Add component code anywhere on the page/layout.
 5. That's it. You now have a working HyperComments on your page. It has no outside dependencies, so you don't have to worry about anything else.
 
-## Components options
+## Components:
 
 ### "Comments widget"
 
