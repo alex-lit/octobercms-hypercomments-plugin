@@ -23,12 +23,12 @@ return [
             'validationMessage' => 'ID must be a number!'
         ],
         'type'                  => [
-            'title'             => 'Modification of the widget',
+            'title'             => 'Widget modification',
             'options'           => [
                 'last'          => 'Recent comments',
                 'popular'       => 'Popular articles'
             ],
-            'description'       => 'Allows to set modification of the widget "Recent comments" - widget of last comments, "Popular articles" - widget of popular articles'
+            'description'       => 'Allows to set widget modification: "Recent comments" - widget of last comments, "Popular articles" - widget of popular articles'
         ],
         'limit'                 => [
             'title'             => 'Count',
