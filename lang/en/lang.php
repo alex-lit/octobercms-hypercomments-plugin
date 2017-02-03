@@ -9,36 +9,36 @@ return [
         'name'                  => 'Comments widget',
         'description'           => 'Display HyperComments widget',
         'widgetId'              => [
-            'title'             => 'ID аккаунта HyperComments',
-            'description'       => 'Числовой идентификатор аккаунта HyperComments',
-            'validationMessage' => 'ID должен быть числом!'
+            'title'             => 'Your widget ID',
+            'description'       => 'You can get your widget code when you are registering in HyperComments or you can take it in the admin panel "Settings"-"Main"',
+            'validationMessage' => 'ID must be a number!'
         ]
     ],
     'mixstream'                 => [
-        'name'                  => 'MINI-WIDGETS',
-        'description'           => 'Последние комментарии и самые комментируемые страницы',
+        'name'                  => 'Mini-widgets',
+        'description'           => 'Recent comments and most commented pages',
         'widgetId'              => [
-            'title'             => 'ID аккаунта HyperComments',
-            'description'       => 'Числовой идентификатор аккаунта HyperComments',
-            'validationMessage' => 'ID должен быть числом!'
+            'title'             => 'Your widget ID',
+            'description'       => 'You can get your widget code when you are registering in HyperComments or you can take it in the admin panel "Settings"-"Main"',
+            'validationMessage' => 'ID must be a number!'
         ],
         'type'                  => [
-            'title'             => 'Тип виджета',
+            'title'             => 'Modification of the widget',
             'options'           => [
-                'last'          => 'RECENT COMMENTS',
-                'popular'       => 'POPULAR ARTICLES'
+                'last'          => 'Recent comments',
+                'popular'       => 'Popular articles'
             ],
-            'description'       => 'Отобразить последние комментарии или самые популярные страницы'
+            'description'       => 'Allows to set modification of the widget "Recent comments" - widget of last comments, "Popular articles" - widget of popular articles'
         ],
         'limit'                 => [
             'title'             => 'Count',
-            'description'       => 'Количество элементов отображаемых в виджете',
+            'description'       => 'Allows to set the number of comments or articles to be displayed in the widget (1-100)',
             'placeholder'       => 'Count',
-            'validationMessage' => 'Количество должно быть числом!'
+            'validationMessage' => 'Count must be a number!'
         ],
         'combine'               => [
-            'title'             => 'COMBINED',
-            'description'       => 'Отображение как комментариев, так и популярных страниц во вкладках виджета'
+            'title'             => 'Combined',
+            'description'       => 'Display last comments and popular pages in widget tabs'
         ]
     ]
 ];

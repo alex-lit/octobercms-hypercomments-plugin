@@ -39,7 +39,7 @@ class Mixstream extends ComponentBase
             'limit'                 => [
                 'title'             => Lang::get('alexlit.hypercomments::lang.mixstream.limit.title'),
                 'type'              => 'string',
-                'default'           => '',
+                'default'           => '5',
                 'description'       => Lang::get('alexlit.hypercomments::lang.mixstream.limit.description'),
                 'placeholder'       => Lang::get('alexlit.hypercomments::lang.mixstream.limit.placeholder'),
                 'validationPattern' => '^[0-9]+$',
