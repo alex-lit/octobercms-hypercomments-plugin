@@ -1,5 +1,7 @@
 # OctoberCMS HyperComments plugin
 
+![banner](https://raw.githubusercontent.com/web2easy/octobercms-hypercomments-plugin/master/assets/images/banner.png)
+
 Tailored comment system for your site!
 
 This plugin adds integration with [HyperComments](https://www.hypercomments.com/) service.
@@ -38,7 +40,14 @@ Recent comments and most commented pages
 ```
 
 #### Options
+
+![banner](https://raw.githubusercontent.com/web2easy/octobercms-hypercomments-plugin/master/assets/images/screenshots-1.jpg)
+
 - **Your widget ID:** You can get your widget code when you are registering in HyperComments or you can take it in the admin panel "Settings"-"Main"
+
+#### Result
+
+![banner](https://raw.githubusercontent.com/web2easy/octobercms-hypercomments-plugin/master/assets/images/screenshots-2.jpg)
 
 ### "Mini-widgets"
 
@@ -49,7 +58,14 @@ Recent comments and most commented pages
 ```
 
 #### Options
+
+![banner](https://raw.githubusercontent.com/web2easy/octobercms-hypercomments-plugin/master/assets/images/screenshots-3.jpg)
+
 - **Your widget ID:** You can get your widget code when you are registering in HyperComments or you can take it in the admin panel "Settings"-"Main"
 - **Modification of the widget:** Allows to set modification of the widget "Recent comments" - widget of last comments, "Popular articles" - widget of popular articles
 - **Count:** Allows to set the number of comments or articles to be displayed in the widget (1-100)
 - **Combined:** Display last comments and popular pages in widget tabs
+
+#### Result
+
+![banner](https://raw.githubusercontent.com/web2easy/octobercms-hypercomments-plugin/master/assets/images/screenshots-4.jpg)
